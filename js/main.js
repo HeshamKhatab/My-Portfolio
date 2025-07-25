@@ -9,3 +9,7 @@ window.onscroll = function() {
         header.classList.remove("active")
     }
 }
+
+function Open_colose_Menu() {
+    document.getElementById('links').classList.toggle('active');
+}
